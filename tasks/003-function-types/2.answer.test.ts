@@ -1,0 +1,28 @@
+// Write code here!
+
+// ============ DO NOT EDIT ============
+
+// === Tests
+describe("Function types", () => {
+  describe("sum", () => {
+    test("is defined", () => expect(sum).toBeDefined());
+    test("is function", () => expect(typeof sum).toEqual("function"));
+  });
+  describe("isLongerThan", () => {
+    test("is defined", () => expect(isLongerThan).toBeDefined());
+    test("is function", () => expect(typeof isLongerThan).toEqual("function"));
+  });
+  describe("logComputerInformation", () => {
+    test("is defined", () => expect(logComputerInformation).toBeDefined());
+    test("is function", () => expect(typeof logComputerInformation).toEqual("function"));
+  });
+  describe("isNegative", () => {
+    test("is defined", () => expect(isNegative).toBeDefined());
+    test("is function", () => expect(typeof isNegative).toEqual("function"));
+  });
+  describe("prependIndex", () => {
+    test("is defined", () => expect(prependIndex).toBeDefined());
+    test("is function", () => expect(typeof prependIndex).toEqual("function"));
+  });
+});
+// === End: Tests

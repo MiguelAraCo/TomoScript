@@ -82,6 +82,103 @@ Arrow function:
 </details>
 <hr>
 
-## Practice
+## Practice 1
+
+> Stop reading this file and answer the following tasks. Once done, come back to the document and continue reading.
 
 - [Simple function](../tasks/001-simple-function/1.instructions.md)
+- [Arrow functions](../tasks/002-arrow-functions/1.instructions.md)
+
+## Specifying a function's types
+
+> 🚨 **TypeScript**
+
+As you could have noticed while answering the [Arrow functions](../tasks/002-arrow-functions/1.instructions.md) task,
+realizing which type of values a function can receive as arguments and which ones it can return is quite important.
+
+If the function is called with the wrong type the application could behave in unexpected ways or error out.
+
+Fortunately, if you are using [TypeScript] you can declare accepted types for parameters and also the type of value
+a function will return.
+
+Try to identify where types are defined for each type of function:
+
+<hr>
+<details>
+<summary>Normal function</summary>
+
+```typescript
+function getBigger(value1: number, value2: number): number {
+  if (value1 > value2) {
+    return value1;
+  } else {
+    return value2;
+  }
+}
+```
+
+  <details>
+  <summary>💡 Answer</summary>
+
+![Normal function types](assets/nf-types.png)
+
+  </details>
+
+</details>
+<hr>
+
+<hr>
+<details>
+<summary>Arrow function</summary>
+
+```typescript
+const getBigger = (value1: number, value2: number): number => {
+  if (value1 > value2) {
+    return value1;
+  } else {
+    return value2;
+  }
+};
+```
+
+  <details>
+  <summary>💡 Answer</summary>
+
+![Arrow function types](assets/af-types.png)
+
+  </details>
+
+</details>
+<hr>
+
+If a function isn't supposed to return a value the special TypeScript type `void` can be used. Using either `undefined`
+or `void` indicate that the function's returned value will be `undefined`, the difference is that when `void` is used,
+it also signals that whoever is calling the function shouldn't expect a value back at all.
+
+```typescript
+// Using void
+function logMyName(): void {
+  console.log("My name");
+}
+
+// This isn't valid
+const result = logMyName();
+```
+
+```typescript
+// Using undefined
+function logMyAge(): undefined {
+  console.log("My age");
+}
+
+// This is valid, result will be 'undefined'
+const result = logMyAge();
+```
+
+> Unless you have a valid reason, **ALWAYS use `void` to indicate that a function doesn't return a value**
+
+<hr>
+
+## Practice 2
+
+- [Function types](../tasks/003-function-types/1.instructions.md)

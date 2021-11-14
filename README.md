@@ -15,17 +15,18 @@ JavaScript/TypeScript project for Tomomi to learn/practice.
 ## Lessons
 
 1. Functions
-   1. [Introduction](lessons/01-introduction.md)
+   1. [Introduction](lessons/01-functions.md)
 
 ## File structure
 
-| File/Directory      | Description                                                                                                                                             |
-| :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `├── .idea`         | WebStorm shared configuration files                                                                                                                     |
-| `├── lessons`       | [Markdown] documents with JavaScript/TypeScript theory (see [#lessons](#lessons)                                                                        |
-| `├── node_modules`  | Directory where all [Node.js] dependencies are installed ([+](https://stackoverflow.com/questions/63294260/what-is-the-purpose-of-node-modules-folder)) |
-| `├── tasks`         | Directory for task files (homework)                                                                                                                     |
-| `├── .editorconfig` | Configuration file that tells IDEs how to format code (e.g. use 2 spaces for indentation, use utf-8) ([+](https://editorconfig.org/))                   |
+```text
+├── .idea/            # WebStorm shared configuration files
+├── lessons/          # [Markdown] documents with JavaScript/TypeScript theory (see [#lessons](#lessons)
+├── node_modules/     # Directory where all [Node.js] dependencies are installed ([+](https://stackoverflow.com/questions/63294260/what-is-the-purpose-of-node-modules-folder))
+├── playground/       # Directory where you can add code you want to try or test. There are no rules here!
+├── tasks/            # Directory for task files (homework)
+├── .editorconfig     # Configuration file that tells IDEs how to format code (e.g. use 2 spaces for indentation, use utf-8) ([+](https://editorconfig.org/))
+```
 
 <!-- TODO: (miguel) Finish describing files -->
 
