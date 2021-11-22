@@ -82,6 +82,55 @@ Arrow function:
 </details>
 <hr>
 
+### How to call a function
+
+As previously mentioned, functions are a type of value that contain a set of instructions. These instructions can be
+executed by "calling" the function (remember, we call executing a function "calling it").
+
+A function is called by using parentheses after the function name and optionally providing values for the function's
+arguments.
+
+```typescript
+const sayHi = (): void => {
+  console.log("Hi!");
+};
+
+// Calling a function without arguments
+sayHi();
+
+const sayHiMultipleTimes = (times: number): void => {
+  for (let i = 0; i < times; i++) {
+    sayHi();
+  }
+};
+
+// Calling a function with one argument
+sayHiMultipleTimes(5);
+```
+
+Try to guess what the previous code would do.
+
+<hr>
+<details>
+<summary>Answer</summary>
+
+It would log the following text:
+
+```text
+Hi!
+Hi!
+Hi!
+Hi!
+Hi!
+Hi!
+```
+
+The first "Hi!" message would be logged because of call in line 6 `sayHi();`. The next 5 messages would be logged because
+of the `sayHiMultipleTimes(5);` call in the last line.
+
+</details>
+<hr>
+
 ## Practice 1
 
 > Stop reading this file and answer the following tasks. Once done, come back to the document and continue reading.
