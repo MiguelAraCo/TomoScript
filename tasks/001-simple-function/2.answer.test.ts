@@ -1,5 +1,8 @@
-// Erase me
-let getFullName;
+function getFullName(value1:string, value2:string):string {
+  return `${value1} ${value2}`;
+
+}
+
 
 // ============ DO NOT EDIT ============
 
@@ -13,3 +16,5 @@ describe("getFullName", () => {
   });
 });
 // === End: Tests
+
+export {};

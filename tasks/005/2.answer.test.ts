@@ -2,10 +2,49 @@
 // Provided code
 // ============ DO NOT EDIT ============
 
-interface Student {
+type Student = {
   name: string;
   testResults: Array<number>;
-}
+};
+
+const getAverage = (values: Array<number>): number => {
+  let sum = 0;
+  for (const value of values) {
+    sum = value + sum;
+  }
+  return sum / values.length;
+};
+// MOMI-MEMO: arguments can be anything. If it names "values", its easier to use it in other codes.
+
+const evaluateStudent = (student: Student): boolean => {
+  if (getAverage(student.testResults) >= 6) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+const evaluateStudents = (
+  students: Array<Student>
+): {
+  passed: Array<Student>;
+  failed: Array<Student>;
+} => {
+  const passed = [];
+  const failed = [];
+
+  for (const currentStudent of students) {
+    if(evaluateStudent(currentStudent)) {
+      passed.push(currentStudent);
+    } else {
+      failed.push(currentStudent);
+    }
+  }
+  return {
+    passed: passed,
+    failed: failed,
+  };
+};
 
 // Write code here!
 
@@ -17,8 +56,8 @@ describe("005", () => {
     test("is defined", () => expect(evaluateStudent).toBeDefined());
     test("is function", () => expect(typeof evaluateStudent).toEqual("function"));
     test("properly divides students into passing/failing lists", () => {
-      expect(evaluateStudent({ name: "Jorge", testScores: [6, 4, 9, 10, 5, 6] })).toEqual(true);
-      expect(evaluateStudent({ name: "Miguel", testScores: [4, 5.5, 6, 3, 6, 4.5] })).toEqual(false);
+      expect(evaluateStudent({ name: "Jorge", testResults: [6, 4, 9, 10, 5, 6] })).toEqual(true);
+      expect(evaluateStudent({ name: "Miguel", testResults: [4, 5.5, 6, 3, 6, 4.5] })).toEqual(false);
     });
   });
 
@@ -126,4 +165,7 @@ describe("005", () => {
     });
   });
 });
+let sum = 0;
 // === End: Tests
+
+export {};

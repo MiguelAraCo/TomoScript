@@ -1,0 +1,24 @@
+{
+  "critical": [
+    "f874fa01-15f6-4ca7-bfb2-e3265efefcab",
+    "3f123f26-d414-4257-9604-d71f5b66d33c",
+    "de4164a6-b804-47cf-8bc0-aa2b951547ca",
+    "b1bb5bb2-851c-4de2-94da-ce0f3cf74411",
+    "1d1de75a-ebd2-48a9-b4c7-b473c87085f5"
+  ],
+  "low": [
+    "86794e32-19d9-4db3-95ed-8ed07ee31466",
+    "01c126ef-7740-4401-ae91-7584a89ca99f",
+    "d353acc0-898e-43cb-8844-c41f5c067ba5",
+    "3de05efb-6562-4179-bf6d-85249be31eac",
+    "95c36d72-648e-42dd-81bf-bda853d373eb",
+    "1269b96c-16a0-4c42-b5b0-cc23e36df23a",
+    "b47b5d75-400a-4e87-a026-4d8b4b2d10b9",
+    "95839aa5-fcbb-495d-8d23-0456d3cf1dbc",
+    "d3aac95b-59a8-4c34-b8d8-284bca1ede55",
+    "680cdf08-41a1-44a7-96eb-5b3fdb348c1b",
+    "4fa8f532-d9e8-45ea-ad9d-638aa462f401",
+    "e7ba2f36-92d3-4e3a-a03a-1293369a4be5",
+    "b0888bc0-d951-4124-ab9a-ad63e6a65f96"
+  ]
+}

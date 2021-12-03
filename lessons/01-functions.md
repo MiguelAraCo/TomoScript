@@ -88,7 +88,7 @@ As previously mentioned, functions are a type of value that contain a set of ins
 executed by "calling" the function (remember, we call executing a function "calling it").
 
 A function is called by using parentheses after the function name and optionally providing values for the function's
-arguments.
+arguments. The values provided as arguments MUST be the same type of the parameters of the function.
 
 ```typescript
 const sayHi = (): void => {

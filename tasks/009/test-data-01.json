@@ -1,0 +1,71 @@
+{
+  "name": "Yost, McKenzie and Casper",
+  "products": [
+    { "id": "87178d2e-46ad-4159-9b68-78601c970fba", "name": "Shoes", "size": "l", "price": 278 },
+    { "id": "5919fbe9-5108-4543-9932-f15f7abed3a3", "name": "Mouse", "size": "l", "price": 288 },
+    { "id": "2bacc6fb-5daa-436d-b3b3-6795cb130060", "name": "Mouse", "size": "m", "price": 48 },
+    { "id": "7c0cd1fe-41ce-4790-bf57-3297ae65a063", "name": "Hat", "size": "s", "price": 225 },
+    { "id": "a09379bc-db75-4592-8eb3-af9c1ec60672", "name": "Keyboard", "size": "l", "price": 275 },
+    { "id": "16ea0774-7f50-4414-9fd9-48813cb3f201", "name": "Chips", "size": "s", "price": 76 },
+    { "id": "eb998011-4abf-40df-8352-63357f10cf80", "name": "Chips", "size": "m", "price": 541 },
+    { "id": "fcbfd220-ec1a-42f8-ba92-2fefda92bd9e", "name": "Sausages", "size": "m", "price": 674 },
+    { "id": "59b891d4-4daa-421d-85af-3edd19171f6f", "name": "Shoes", "size": "m", "price": 294 },
+    { "id": "0f5fda11-caa2-4470-b67f-aee500cedc22", "name": "Chair", "size": "s", "price": 497 },
+    { "id": "3172410b-9fdd-48b8-922d-db330caed857", "name": "Soap", "size": "m", "price": 496 },
+    { "id": "a9d2a2e0-5186-47a2-b0dc-f39738efd860", "name": "Computer", "size": "m", "price": 44 },
+    { "id": "3b71e804-3b04-4826-8e3a-6c36b7c9d285", "name": "Cheese", "size": "m", "price": 330, "discount": 11 },
+    { "id": "c2b69daf-cb81-4c85-b5df-2cc10ee6c70a", "name": "Sausages", "size": "m", "price": 873 },
+    { "id": "ea78d11b-a8ef-4a06-8041-b0a07467d510", "name": "Bike", "size": "s", "price": 331 },
+    { "id": "f1043e6b-9f61-4423-9647-95720e1004f5", "name": "Ball", "size": "m", "price": 304, "discount": 17 },
+    { "id": "79aa55d1-2052-477e-a80a-8081ef134eae", "name": "Salad", "size": "m", "price": 531 },
+    { "id": "c486c97f-bff7-400b-b8ad-9272a32ed58d", "name": "Chips", "size": "m", "price": 14 },
+    { "id": "341b2eb2-08e2-45b1-9d40-97604f3e498a", "name": "Cheese", "size": "s", "price": 578 }
+  ],
+  "warehouses": [
+    {
+      "name": "Gleason and Sons",
+      "inventory": [
+        { "id": "87178d2e-46ad-4159-9b68-78601c970fba", "stock": 63 },
+        { "id": "5919fbe9-5108-4543-9932-f15f7abed3a3", "stock": 56 },
+        { "id": "2bacc6fb-5daa-436d-b3b3-6795cb130060", "stock": 34 },
+        { "id": "7c0cd1fe-41ce-4790-bf57-3297ae65a063", "stock": 94 },
+        { "id": "a09379bc-db75-4592-8eb3-af9c1ec60672", "stock": 7 },
+        { "id": "16ea0774-7f50-4414-9fd9-48813cb3f201", "stock": 42 },
+        { "id": "eb998011-4abf-40df-8352-63357f10cf80", "stock": 12 },
+        { "id": "fcbfd220-ec1a-42f8-ba92-2fefda92bd9e", "stock": 19 },
+        { "id": "59b891d4-4daa-421d-85af-3edd19171f6f", "stock": 15 },
+        { "id": "0f5fda11-caa2-4470-b67f-aee500cedc22", "stock": 36 },
+        { "id": "3172410b-9fdd-48b8-922d-db330caed857", "stock": 77 },
+        { "id": "a9d2a2e0-5186-47a2-b0dc-f39738efd860", "stock": 29 },
+        { "id": "3b71e804-3b04-4826-8e3a-6c36b7c9d285", "stock": 48 },
+        { "id": "c2b69daf-cb81-4c85-b5df-2cc10ee6c70a", "stock": 66 },
+        { "id": "ea78d11b-a8ef-4a06-8041-b0a07467d510", "stock": 7 },
+        { "id": "f1043e6b-9f61-4423-9647-95720e1004f5", "stock": 41 },
+        { "id": "79aa55d1-2052-477e-a80a-8081ef134eae", "stock": 23 },
+        { "id": "c486c97f-bff7-400b-b8ad-9272a32ed58d", "stock": 72 },
+        { "id": "341b2eb2-08e2-45b1-9d40-97604f3e498a", "stock": 5 }
+      ]
+    }
+  ],
+  "inventory": [
+    { "id": "87178d2e-46ad-4159-9b68-78601c970fba", "stock": 1 },
+    { "id": "5919fbe9-5108-4543-9932-f15f7abed3a3", "stock": 7 },
+    { "id": "2bacc6fb-5daa-436d-b3b3-6795cb130060", "stock": 6 },
+    { "id": "7c0cd1fe-41ce-4790-bf57-3297ae65a063", "stock": 6 },
+    { "id": "a09379bc-db75-4592-8eb3-af9c1ec60672", "stock": 3 },
+    { "id": "16ea0774-7f50-4414-9fd9-48813cb3f201", "stock": 9 },
+    { "id": "eb998011-4abf-40df-8352-63357f10cf80", "stock": 5 },
+    { "id": "fcbfd220-ec1a-42f8-ba92-2fefda92bd9e", "stock": 10 },
+    { "id": "59b891d4-4daa-421d-85af-3edd19171f6f", "stock": 11 },
+    { "id": "0f5fda11-caa2-4470-b67f-aee500cedc22", "stock": 15 },
+    { "id": "3172410b-9fdd-48b8-922d-db330caed857", "stock": 11 },
+    { "id": "a9d2a2e0-5186-47a2-b0dc-f39738efd860", "stock": 2 },
+    { "id": "3b71e804-3b04-4826-8e3a-6c36b7c9d285", "stock": 16 },
+    { "id": "c2b69daf-cb81-4c85-b5df-2cc10ee6c70a", "stock": 2 },
+    { "id": "ea78d11b-a8ef-4a06-8041-b0a07467d510", "stock": 10 },
+    { "id": "f1043e6b-9f61-4423-9647-95720e1004f5", "stock": 7 },
+    { "id": "79aa55d1-2052-477e-a80a-8081ef134eae", "stock": 13 },
+    { "id": "c486c97f-bff7-400b-b8ad-9272a32ed58d", "stock": 19 },
+    { "id": "341b2eb2-08e2-45b1-9d40-97604f3e498a", "stock": 12 }
+  ]
+}
