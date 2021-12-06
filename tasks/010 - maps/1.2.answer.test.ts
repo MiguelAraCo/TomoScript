@@ -17,7 +17,7 @@ describe("010-maps", () => {
     test("is defined", () => expect(indexByName).toBeDefined());
     test("is function", () => expect(typeof indexByName).toEqual("function"));
     test("properly divides students into passing/failing lists", () => {
-      expect(indexByName(require('./001-data.json'))).toEqual(require('./001-answer.json'));
+      expect(indexByName(require('./1.4.1.data.json'))).toEqual(require('./1.4.2answer.json'));
     });
   });
 
