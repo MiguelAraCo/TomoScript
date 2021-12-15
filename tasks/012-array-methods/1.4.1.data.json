@@ -1,0 +1,76 @@
+[
+  { "firstName": "Jayne", "lastName": "Predovic", "age": 17, "dogs": ["Rajapalayam", "Pungsan Dog"] },
+  { "firstName": "Gilda", "lastName": "Kuvalis", "age": 58, "dogs": ["Russo-European Laika", "Tibetan Terrier"] },
+  {
+    "firstName": "Marion",
+    "lastName": "Kuhn",
+    "age": 43,
+    "dogs": ["Wetterhoun", "Hierran Wolfdog", "Small Münsterländer"]
+  },
+  { "firstName": "Clement", "lastName": "Reilly", "age": 19, "dogs": ["Appenzeller Sennenhund"] },
+  { "firstName": "Laverne", "lastName": "Price", "age": 55, "dogs": ["Newfoundland", "Carolina Dog", "Schipperke"] },
+  { "firstName": "Dasia", "lastName": "Thiel", "age": 33, "dogs": [] },
+  { "firstName": "Christy", "lastName": "Moen", "age": 61, "dogs": [] },
+  { "firstName": "Antonia", "lastName": "Heaney", "age": 54, "dogs": ["Central Asian Shepherd Dog", "Greyhound"] },
+  { "firstName": "Ophelia", "lastName": "Schamberger", "age": 36, "dogs": [] },
+  { "firstName": "Reva", "lastName": "Rath", "age": 29, "dogs": ["Swedish White Elkhound", "American Foxhound"] },
+  { "firstName": "Sydnee", "lastName": "Balistreri", "age": 61, "dogs": ["Segugio Maremmano"] },
+  { "firstName": "Maximilian", "lastName": "Predovic", "age": 57, "dogs": ["Rat Terrier", "Boerboel", "Shar Pei"] },
+  { "firstName": "Juston", "lastName": "Wyman", "age": 52, "dogs": ["Berger Picard"] },
+  { "firstName": "Ora", "lastName": "Hahn", "age": 19, "dogs": [] },
+  { "firstName": "Matilda", "lastName": "Hoeger", "age": 52, "dogs": ["Wirehaired Vizsla", "English Mastiff"] },
+  {
+    "firstName": "Demetrius",
+    "lastName": "Hettinger",
+    "age": 18,
+    "dogs": ["Miniature Bull Terrier", "Westphalian Dachsbracke", "Ratonero Mallorquin"]
+  },
+  { "firstName": "Aurelie", "lastName": "Lynch", "age": 54, "dogs": ["Dachshund"] },
+  { "firstName": "Myrna", "lastName": "O'Conner", "age": 49, "dogs": ["Pshdar Dog", "Tamaskan Dog"] },
+  { "firstName": "Don", "lastName": "Towne", "age": 22, "dogs": ["Rafeiro do Alentejo", "Indian Spitz"] },
+  { "firstName": "Loy", "lastName": "Rosenbaum", "age": 34, "dogs": ["Sapsali", "Black and Tan Coonhound"] },
+  { "firstName": "Alyce", "lastName": "Kuphal", "age": 28, "dogs": ["English Mastiff", "Siberian Husky"] },
+  { "firstName": "Hassie", "lastName": "O'Kon", "age": 61, "dogs": ["Norfolk Terrier", "Yakutian Laika"] },
+  {
+    "firstName": "Kaitlyn",
+    "lastName": "Jacobs",
+    "age": 30,
+    "dogs": ["American Staffordshire Terrier", "Chien Français Blanc et Noir"]
+  },
+  { "firstName": "Doyle", "lastName": "Ondricka", "age": 50, "dogs": ["Akbash"] },
+  {
+    "firstName": "Jaunita",
+    "lastName": "Moen",
+    "age": 58,
+    "dogs": ["Indian pariah dog", "Caucasian Shepherd Dog", "Magyar agár"]
+  },
+  { "firstName": "Joseph", "lastName": "Runolfsson", "age": 52, "dogs": ["Canaan Dog"] },
+  { "firstName": "Winifred", "lastName": "Hilll", "age": 35, "dogs": ["Perro de Presa Mallorquin", "Basenji"] },
+  { "firstName": "Cecelia", "lastName": "Daugherty", "age": 28, "dogs": [] },
+  { "firstName": "Randi", "lastName": "Gislason", "age": 74, "dogs": [] },
+  { "firstName": "Jerrell", "lastName": "Luettgen", "age": 54, "dogs": ["Bergamasco Shepherd"] },
+  { "firstName": "Ruth", "lastName": "Orn", "age": 73, "dogs": ["Chinook"] },
+  { "firstName": "Fatima", "lastName": "Bechtelar", "age": 48, "dogs": ["Bracco Italiano", "German Hound"] },
+  {
+    "firstName": "Jordan",
+    "lastName": "Dare",
+    "age": 41,
+    "dogs": ["Shiloh Shepherd", "Pekingese", "Austrian Black and Tan Hound"]
+  },
+  {
+    "firstName": "Myriam",
+    "lastName": "Gulgowski",
+    "age": 70,
+    "dogs": ["Grand Bleu de Gascogne", "King Charles Spaniel"]
+  },
+  { "firstName": "Linnea", "lastName": "Klocko", "age": 40, "dogs": ["Serrano Bulldog", "Manchester Terrier"] },
+  { "firstName": "Madisen", "lastName": "Ward", "age": 41, "dogs": ["Sapsali"] },
+  { "firstName": "Ferne", "lastName": "Hammes", "age": 59, "dogs": ["Chinese Crested Dog", "Russian Spaniel"] },
+  { "firstName": "Lilla", "lastName": "Bauch", "age": 67, "dogs": ["Styrian Coarse-haired Hound", "Newfoundland"] },
+  {
+    "firstName": "Rudy",
+    "lastName": "Harvey",
+    "age": 52,
+    "dogs": ["Cardigan Welsh Corgi", "American Water Spaniel", "Tenterfield Terrier"]
+  }
+]

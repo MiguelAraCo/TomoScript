@@ -1,0 +1,8 @@
+[
+  { "firstName": "Dasia", "lastName": "Thiel", "age": 33, "dogs": [] },
+  { "firstName": "Christy", "lastName": "Moen", "age": 61, "dogs": [] },
+  { "firstName": "Ophelia", "lastName": "Schamberger", "age": 36, "dogs": [] },
+  { "firstName": "Ora", "lastName": "Hahn", "age": 19, "dogs": [] },
+  { "firstName": "Cecelia", "lastName": "Daugherty", "age": 28, "dogs": [] },
+  { "firstName": "Randi", "lastName": "Gislason", "age": 74, "dogs": [] }
+]
