@@ -38,7 +38,7 @@ type Pokemon = {
 };
 
 // source array
-const pokemons: Array<Pokemon> = require("./pokemon.json");
+const pokemons: Array<Pokemon> = require("../datasets/pokemon.json");
 
 // === Array methods
 // = filter
@@ -56,29 +56,29 @@ pokemons.filter(function attackIsMoreThan60(element: Pokemon): boolean {
   return element.base.Attack > 60;
 });
 // Option 3: Inline (anonymous) (RECOMMENDED)
-pokemons.filter(function(element: Pokemon): boolean {
+pokemons.filter(function (element: Pokemon): boolean {
   return element.base.Attack > 60;
 });
 
 // Arrow function syntax
-const attackIsMoreThan50 = (element: Pokemon, index:number): boolean => {
+const attackIsMoreThan50 = (element: Pokemon, index: number): boolean => {
   return element.base.Attack > 50;
 };
 
 // Option 1: By reference
 pokemons.filter(attackIsMoreThan50);
 // Option 2: Inline
-pokemons.filter((element: Pokemon, index:number): boolean => {
+pokemons.filter((element: Pokemon, index: number): boolean => {
   return element.base.Attack > 50;
 });
 // Option 3: Inline with no parentheses
 // This can ONLY be done when you ONLY use 1 argument
 // YOU CAN'T WRITE THE TYPE OF THE ARGUMENT OR THE RETURN TYPE
-pokemons.filter(element => {
+pokemons.filter((element) => {
   return element.base.Attack > 50;
 });
 // Option 4: Inline with no block or return statement
-pokemons.filter(element => element.base.Attack > 50 );
+pokemons.filter((element) => element.base.Attack > 50);
 
 // Pass it by reference
 pokemons.filter(attackIsMoreThan60);
@@ -86,12 +86,12 @@ pokemons.filter(attackIsMoreThan60);
 pokemons.filter(function attackIsMoreThan60(element: Pokemon): boolean {
   return element.base.Attack > 60;
 });
-pokemons.filter(function(element: Pokemon): boolean {
+pokemons.filter(function (element: Pokemon): boolean {
   return element.base.Attack > 60;
 });
 // ====
 
-type FilterFn = (element: Pokemon, in dex: number) => boolean;
+type FilterFn = (element: Pokemon, index: number) => boolean;
 
 function filter(
   pokemons: Array<Pokemon>,
@@ -108,7 +108,7 @@ function filter(
   return filteredPokemons;
 }
 
-const attacks = pokemons.map((element:Pokemon) => {
+const attacks = pokemons.map((element: Pokemon) => {
   return element.base.Attack;
 });
 //whats going on inside of function
